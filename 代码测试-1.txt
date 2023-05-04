@@ -1,7 +1,8 @@
-啊手动阀手动阀
+项目用代码上传github操作流程。
+	在根项目文件中，打开Git Bash Here，运行下面顺序的命令！！！
 
-这个是第三次   
 顺序是：
 1.把文件添加到本地仓库：git add .
 2.添加上传此次代码的注释：git commit -m ”xxx“
-3.上传代码：git push -u origin +分支名称
+  2.1：如果是第一次上传github需要关联远程仓库：git remote add origin +远程仓库地址
+3.上传代码：git push -u origin main(main是分支的名字)
